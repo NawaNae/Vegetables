@@ -1,16 +1,172 @@
 *
 {
-
+    margin:0px;
+    padding:0px;
+    font-family: 'Arial Black';
 }
+
 html
 {
+    background-color: rgb(236,244,197);
+}
+.container
+{
+    position: relative;
+    width:940px;
+    margin:0px auto;
+}
+header,main
+{
+   /* margin:0px 160px;*/
+}
+.deepGreen
+{
+    border-radius : 3px;
+    background-color : #778A50;
 
+    font-size:16px;
+    color:  #EDF2C5;
+}
+.deepGreen a
+{
+    font-size:16px;
+    color:#EDF2C5;
 }
 header
 {
 
 }
-footer
+.top
+{
+    position: relative;
+}
+h1
+{
+    color:#778A50;
+    font-size: 30px;
+    line-height: 43px;
+    display: inline-block;
+    margin-right:476px;
+}
+ul
+{
+    padding: 0;
+}
+li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+aside
 {
 
+    display: inline-block;
+}
+
+aside > .partitionBar
+{
+    border-left:solid 0.5px rgb(119,134,79);
+    border-right:solid 0.5px rgb(119,134,79);
+    margin-left:2px;
+    margin-right: 2px;
+}
+aside > ul
+{
+    display: inline-block;
+}
+aside > ul.social> li
+{
+ margin-right: 8px;
+}
+aside > ul.account> li
+{
+    margin-left: 8px
+}
+aside > ul > li >a
+{
+    border : solid 1px  #778A50;
+    border-radius: 3px;
+    font-family: 'Arial Black' ;
+    font-size:  16px;
+    color : #778A50;
+    background-color : #EDF2C5;
+}
+aside>ul.account>li>a
+{
+    padding:5px 9px;
+    font-size: 12px;
+}
+.navbar
+{
+    clear: both;
+    margin-bottom: 20px;
+}
+.navbar li
+{
+    margin:16px 30px;
+}
+main
+{
+
+}
+h2{
+    padding:16px 31px;
+}
+.vegetable,.contact
+{
+/*width:444px;*/
+display: inline-block;
+margin:32px 0px 34px 0px;
+}
+.vegetable{
+    margin-right: 52px;
+    width:444px;
+    float:left;
+}
+.vegetable ul{
+    margin-top: 17px;
+}
+.vegetable li
+{
+    width:140px;
+    height:140px;
+    margin-right:12px;
+}
+.vegetable li:last-child
+{
+    margin-right: 0px;
+}
+.contact
+{
+    width:444px;
+    float:right;
+}
+.contact article
+{
+    padding:15px;
+    background-color:#EDF2D3;
+    margin-top:17px;
+}
+.contact article *
+{
+    font-weight: normal;
+    font-size:12px;
+    font-family: 'Arial';
+    color:#898989;
+    margin-bottom: 15px;
+}
+.contact article>.line
+{
+    width:100%;
+    height:1px;
+    background-color: #898989
+}
+footer.deepGreen
+{
+    border-radius: 0px;
+    text-align: center;
+    padding-top:24px;
+    font-size:12px;
+    padding-bottom: 24px;
+    clear:both;
 }

@@ -67,6 +67,9 @@
   
   a {
     background-color: transparent;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
   }
   
   /**
