@@ -43,7 +43,7 @@ header
 h1
 {
     color:#778A50;
-    font-size: 30px;
+    font-size: 38px;
     line-height: 43px;
     display: inline-block;
     margin-right:476px;
@@ -130,7 +130,7 @@ margin:32px 0px 34px 0px;
 {
     width:140px;
     height:140px;
-    margin-right:12px;
+    margin-right:6px/*12px*/;
 }
 .vegetable li:last-child
 {
