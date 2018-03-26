@@ -4,7 +4,13 @@
     padding:0px;
     font-family: 'Arial Black';
 }
-
+a
+{
+    background-color: transparent;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
 html
 {
     background-color: rgb(236,244,197);
@@ -39,14 +45,16 @@ header
 .top
 {
     position: relative;
+    height: 103px;
 }
 h1
 {
     color:#778A50;
-    font-size: 38px;
-    line-height: 43px;
+    font-size: 44px;
     display: inline-block;
-    margin-right:476px;
+    position: absolute;
+    bottom:8px;
+    
 }
 ul
 {
@@ -59,42 +67,57 @@ li
 }
 aside
 {
-
-    display: inline-block;
+    margin: auto 0;
+    height: 25px;
+    display: block;
+    
+    position: absolute;
+    right: 0px;
+    bottom: 17px;
 }
-
+aside >a
+{
+    height: 25px;
+}
 aside > .partitionBar
 {
     border-left:solid 0.5px rgb(119,134,79);
     border-right:solid 0.5px rgb(119,134,79);
-    margin-left:2px;
-    margin-right: 2px;
+
+    height:25px;
 }
-aside > ul
+aside > *
 {
-    display: inline-block;
+    
+    display: block;
+    float: left;
+    margin-right:10px;
+   
 }
-aside > ul.social> li
+aside .sixty
 {
- margin-right: 8px;
+    width:58px;
 }
-aside > ul.account> li
+aside .fifty
 {
-    margin-left: 8px
+    width:48px;
 }
-aside > ul > li >a
+aside>.btn
 {
+    text-align: center;
+    font-size: 14px;    
+    height:23px;
     border : solid 1px  #778A50;
     border-radius: 3px;
-    font-family: 'Arial Black' ;
-    font-size:  16px;
+    font-family: 'Arial BoldMT' ;
+    line-height: 23px;
     color : #778A50;
     background-color : #EDF2C5;
 }
-aside>ul.account>li>a
+
+aside :last-child
 {
-    padding:5px 9px;
-    font-size: 12px;
+    margin-right: 0px;
 }
 .navbar
 {
@@ -130,7 +153,7 @@ margin:32px 0px 34px 0px;
 {
     width:140px;
     height:140px;
-    margin-right:6px/*12px*/;
+    margin-right:12px;
 }
 .vegetable li:last-child
 {
