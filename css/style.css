@@ -166,17 +166,25 @@ margin:32px 0px 34px 0px;
 }
 .contact article
 {
-    padding:15px;
+    padding:16px 15px;
     background-color:#EDF2D3;
+    box-sizing: border-box;
+    height: 140px;
     margin-top:17px;
 }
 .contact article *
 {
     font-weight: normal;
     font-size:12px;
-    font-family: 'Arial';
+    line-height: 1.33;
+    font-family: 'ArialMT Regular';
     color:#898989;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
+}
+.contact :last-child
+{
+    line-height: 1.83;
+    margin-bottom: 0px;
 }
 .contact article>.line
 {
